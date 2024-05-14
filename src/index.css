@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(233, 205, 205);
+  transition: 0.5s;
+
+}
+.container.dark{
+  background: rgba(19, 18, 18, 0.941);
+  
+}
